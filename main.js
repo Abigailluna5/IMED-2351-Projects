@@ -1,3 +1,4 @@
 
+console.log("What's my favorite food?");
 
-console.log("What my favorite food?");
+document.write("Hello Professor!! What's my favorite food?")
