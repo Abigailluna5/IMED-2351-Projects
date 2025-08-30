@@ -1,3 +1,3 @@
 
 
-console.log("What my favorite food?") ;
+console.log("What my favorite food?");
