@@ -22,7 +22,7 @@ console.log("My favorite food is:", favoriteFood);
 
 const person = {
   name: "Abigail",
-  age: 20,
+  age: 25,
   favoriteFood: "Burgers"
 };
 console.log("Person object:", person);
