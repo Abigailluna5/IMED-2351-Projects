@@ -38,7 +38,7 @@ const student = {
 
   // Method
 introduce: function() {
-  console.log(" Hi, I'm " + this.name +", I'm am"+ this.age+" years old :) ");
+  console.log(" Hi, I'm " + this.name +", I'm am"+ this.age +" years old :) ");
 }
 } ;
 
@@ -63,3 +63,29 @@ student.introduce();
 function buttonClicked(){
   console.log("Button was clicked!");
 }
+
+//strings and conditionals 
+
+const Name1 = "Abby";
+const age1 = 18; 
+
+//"If" Conditional statement
+
+if (age1 >= 18) {
+  console.log(`${Name1} is an adult.`);
+} else {
+  console.log(`${Name1} is not an adult yet.`);
+}
+
+//switch
+
+let day = "Wednesday";
+switch(day) {
+  case "Monday": console.log("Start of the week!"); break;
+  case "Wednesday": console.log("Midweek already!"); break;
+  case "Friday": console.log("Weekend is near!"); break;
+  default: console.log("Just another day.");
+}
+
+// string method
+console.log(Name1.toUpperCase());
