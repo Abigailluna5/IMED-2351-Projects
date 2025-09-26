@@ -38,13 +38,13 @@ const student = {
 
   // Method
 introduce: function() {
-  console.log(" Hi, I'm " + this.name);
+  console.log(" Hi, I'm " + this.name +", I'm am"+ this.age+" years old :) ");
 }
 } ;
 
 //  parameter IN
 function greet(Name) {
-  console.log("Hello," + name +"!")
+  console.log("Hello," + "friend" +"!")
 }
 
 // parameter OUT
