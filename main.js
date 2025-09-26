@@ -26,3 +26,40 @@ const person = {
   favoriteFood: "Burgers"
 };
 console.log("Person object:", person);
+
+
+// Function And Parameters assignment
+
+//create a object 
+
+const student = {
+  name:"Abigail",
+  age: 21,
+
+  // Method
+introduce: function() {
+  console.log(" Hi, I'm " + this.name);
+}
+} ;
+
+//  parameter IN
+function greet(Name) {
+  console.log("Hello," + name +"!")
+}
+
+// parameter OUT
+function addNumbers(num1,num2) {
+  return num1+ num2;
+}
+
+// Invoke
+greet("Abigail");
+
+let total= addNumbers (5,10);
+console.log(total);
+// call function 
+student.introduce();
+//event
+function buttonClicked(){
+  console.log("Button was clicked!");
+}
