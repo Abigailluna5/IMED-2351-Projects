@@ -3,6 +3,8 @@ console.log("Do you think my favorite drink is Dr.Pepper or Coke?");
 
 document.write("Hello Professor!! What's my favorite food?")
 
+
+
 // Global variable 
 var globalNumber = 10;
 console.log("Global number:", globalNumber);
@@ -89,3 +91,49 @@ switch(day) {
 
 // string method
 console.log(Name1.toUpperCase());
+
+//loops and doom
+
+// For loop
+console.log("cou ting from 1 to 5:");
+for(let i = 1; i <= 5; i++){
+  console.log("Number:",i);
+
+}
+
+// While Loop countdown
+console.log("Counting down from 5");
+let count =5;
+while (count >0){
+   console.log("countdown:", count);
+   count--;
+}
+
+// change css with js
+function changeColor(){
+  const box = document.getElementById("colorBox");
+  box.style.backgroundColor="lightblue";
+  box.style.color="white";
+  box.style.fontSize = "20px";
+  box.innerText= "color change!";
+}
+
+// change css variable value
+function updateBox() {
+  const box = document.getElementById("colorBox");
+  let mood = "happy";
+
+
+if ( mood === "happy") {
+  box.style.backgroundColor = "yellow"
+  box.innerText = " i'm feeling happy :)";
+}
+else if (mood ==="sad") {
+  box.style.backgroundColor="lightblue";
+  box.innerText= "im feeling sad:(";
+}
+else {
+  box.style.backgroundColor= "grey";
+  box.innerText= " just neutral :|"
+}
+}
